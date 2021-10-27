@@ -65,16 +65,10 @@ $width:200px;
 
 @keyframes rotate {
   from{
-    transform: rotate3d(1,1,0,0deg) scale3d(1,1,1);
-  }
-  50%{
-    transform: rotate3d(1,1,0,360deg) scale3d(0.5,0.5,0.5);
-  }
-  80%{
-    transform: rotate3d(1,1,0,0deg) scale3d(1.2,1.2,1.2);
+    transform: rotate3d(1,1,0,0deg) rotate3d(0,1,1,0deg);
   }
   to{
-    transform: rotate3d(1,1,0,180deg) scale3d(1,1,1);
+    transform: rotate3d(1,1,0,360deg)  rotate3d(0,1,1,360deg);
   }
 }
 </style>
