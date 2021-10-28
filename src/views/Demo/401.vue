@@ -20,11 +20,7 @@ $lockWidth:320px;
 $fontColor:#5caaff;
 .error {
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-top: 100px;
 
   .message{
     margin-top: 10px;
@@ -39,7 +35,6 @@ $fontColor:#5caaff;
     }
   }
   .lock{
-    width: $lockWidth;
     height: $lockWidth;
     position: relative;
 
@@ -48,8 +43,8 @@ $fontColor:#5caaff;
     }
 
     .bigRing{
-      width: 100%;
-      height: 100%;
+      width: $lockWidth;
+      height: $lockWidth;
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
