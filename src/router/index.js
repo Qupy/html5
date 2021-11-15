@@ -23,6 +23,7 @@ const Ctrip = ()=>import('@/views/Demo/Ctrip')
 const Carousel = ()=> import('@/views/Demo/Carousel')
 const Hexagon = ()=>import('@/views/Demo/Hexagon')
 const P401 = ()=> import('@/views/Demo/401')
+const Loading = ()=> import('@/views/Demo/Loading')
 
 const Sass = ()=> import('@/views/Sass')
 const Variable = ()=> import('@/views/Sass/Variable')
@@ -157,6 +158,11 @@ const routes = [
         path: '401',
         name: '401',
         component:P401
+      },
+      {
+        path: 'loading',
+        name: 'Loading',
+        component:Loading
       }
     ]
   },

@@ -48,6 +48,7 @@
         <el-menu-item index="/demo/carousel">轮播图</el-menu-item>
         <el-menu-item index="/demo/hexagon">六边形</el-menu-item>
         <el-menu-item index="/demo/401">401</el-menu-item>
+        <el-menu-item index="/demo/Loading">加载动画</el-menu-item>
       </el-sub-menu>
     </el-menu>
   </el-scrollbar>
